@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Marhey:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            font-family: "Marhey", sans-serif;
+            color: aqua;
+            text-align: center;
+            font-size: 40px;
+        }
+        legend{
+            color: beige;
+            font-family: "Marhey", sans-serif;
+        }
+        label{
+            color: azure;
+            font-family: "Marhey", sans-serif;
+        }
+        button{
+            color: black;
+            font-family: "Marhey", sans-serif;
+        }
+        fieldset{
+            width: 40%;
+        }
+        a{
+            text-decoration: none;
+            color: azure;
+            border: solid white;
+            font-family: "Marhey", sans-serif;
+        }
+        input{
+            font-family: "Marhey", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Expense tracker App</h1>
+<center>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <label for="EMAIL">Your email:</label><br></br>
+        <input type="TEXT"placeholder="enter your email"required><br></br>
+        <label for="pwd">Password:</label><br></br>
+        <input type="password" id="pwd" name="pwd"><br></br>
+        <label for="number">Phone number:</label><br></br>
+        <input type="number"placeholder="enter your number"required><br></br>
+        <button>Generate OTP</button><br></br>
+        <label for="number">verify OTP:</label><br></br>
+        <input type="number"placeholder="enter OTP received on mobile"required><br></br>
+        <input type="number"placeholder="validate"><br></br>
+        <a href="./Submit.html">Submit</a>
+    </fieldset>
+</center>
+</body>
+</html>

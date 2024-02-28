@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Marhey:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            font-family: "Marhey", sans-serif;
+            color: brown;
+            text-align: center;
+            font-size: 50px;
+        }
+        body{
+            background-color: black;
+
+        }
+        label{
+            color: azure;
+            font-family: "Marhey", sans-serif;
+        }
+        button{
+            color: black;
+            background-color: greenyellow;
+            font-family: "Marhey", sans-serif;
+        }
+        
+        h2{
+            text-align: center;
+            color: blanchedalmond;
+            font-size: 30px;
+            font-family: "Marhey", sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+             border: 1px solid black;
+             padding: 8px;
+             text-align: left;
+             color:black;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+<center>
+    <label for="Category">Category:</label>
+    <select>
+        <option value=""></option>
+        <option value="Rent">Rent</option>
+        <option value="Food">Food</option>
+        <option value="Travelling">Travelling</option>
+        <option value="Others">Others</option>
+    </select>
+      <label for="Amount">Amount:</label>
+      <input type=""placeholder="">
+      <label for="Date">Date:</label>
+      <input type="date"placeholder="date">
+      <button>ADD</button>
+</center>
+    <div>
+    <h2>Expenses List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>ADD</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+    </table>
+    </div>
+</body>
+</html>
